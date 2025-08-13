@@ -30,3 +30,28 @@ pip install selenium pandas beautifulsoup4 lxml webdriver_manager
 python weather_scraper.py
 ```
 執行後會產出 nyc_weather.csv，內含 2014~2024 年紐約市每月平均氣溫。
+
+## 📁 輸出格式
+
+| Year | Month | AvgTemperature |
+|------|-------|----------------|
+| 2014 | 1     | 32°F           |
+| ...  | ...   | ...            |
+
+---
+
+## 🌐 資料來源
+
+所有天氣資料皆爬取自：
+
+> [Wunderground - New York City Historical Weather](https://www.wunderground.com/weather/us/ny/new-york-city)
+
+此網站提供詳細的歷史天氣數據，包括每日與每月的溫度、降雨量、濕度等資訊。
+
+---
+
+## 📝 注意事項
+
+- 請確認你的電腦已安裝 Google Chrome 瀏覽器
+- 程式會模擬點擊與載入，執行時間可能數分鐘
+- 若網頁結構改變，CSS selector 需更新
