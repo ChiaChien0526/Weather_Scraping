@@ -23,3 +23,10 @@
 
 ```bash
 pip install selenium pandas beautifulsoup4 lxml webdriver_manager
+```
+
+## ▶️ 執行方式
+```bash
+python weather_scraper.py
+```
+執行後會產出 nyc_weather.csv，內含 2014~2024 年紐約市每月平均氣溫。
