@@ -60,7 +60,7 @@ time.sleep(2)
 # 儲存資料用的清單
 weather_data = []
 
-# 開始爬取 2014/01 ~ 2024/12
+# 開始爬取 2014/01 ~ 2024/12 平均氣溫
 for year in range(2014, 2025):
     for month in range(1, 13):
         try:
